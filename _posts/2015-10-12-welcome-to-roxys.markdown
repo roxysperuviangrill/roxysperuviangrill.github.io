@@ -1,7 +1,6 @@
 ---
 title:  "Welcome The Roxys Peruvian Chicken Blog"
 date:   2015-10-12 12:45:01
-permalink: welcome
 layout: default
 category: update
 comments: true
