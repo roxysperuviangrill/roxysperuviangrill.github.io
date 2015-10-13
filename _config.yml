@@ -1,0 +1,12 @@
+# Site settings
+title: Roxys Peruvian Grill
+email: roxysperuviangrill@gmail.com
+description: This blog is dedicated to informing our fans about events and happenings at Roxys!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+
+
+# Build settings
+markdown: kramdown
+permalink: /:title

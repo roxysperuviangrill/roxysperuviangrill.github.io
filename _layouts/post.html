@@ -1,0 +1,24 @@
+---
+layout: default
+type: posts
+category: update
+comments: true
+
+---
+<div class="grid">
+  <div class="grid__col--12 post">
+    <header class="post_header">
+    <h1 class="post-title--grouped">{{ page.title }}</h1>
+    <div class="post_meta">
+      <b class"post_author"> {% if page.author %}{{ page.author }}{% endif %}</b>
+      <b class="post_date">{{ post.date | date" "%b %-d, %Y "}}</b>
+    </div>
+  </header>
+
+    <article class="post-content">
+    {{ content }}
+    </article>
+
+    {% include disqus.html disqus_identifier=page.disqus_identifier %}
+  </div>
+</div>
