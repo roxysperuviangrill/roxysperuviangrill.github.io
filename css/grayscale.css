@@ -148,7 +148,7 @@ a:focus {
     padding-top:0;
     text-align: center;
     color: #fff;
-    background: url(../img/logo.png) no-repeat bottom center scroll;
+    background: url() no-repeat bottom center scroll;
     background-color: #000;
     background-size: auto;
     -webkit-background-size: 100% auto;
@@ -284,7 +284,7 @@ a:focus {
 .contact-section{
       width: 100%;
       padding: 50px 0;
-      color: #990000;
+      color: #42dca3;
       background: url(../img/lima.jpg) no-repeat center center scroll;
       background-color: #000;
       -webkit-background-size: cover;
